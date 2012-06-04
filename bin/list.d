@@ -1,0 +1,10 @@
+.\bin\list.o: FreeRTOS\src\list.c
+.\bin\list.o: D:\Keil\ARM\RV31\Inc\stdlib.h
+.\bin\list.o: FreeRTOS\inc\FreeRTOS.h
+.\bin\list.o: D:\Keil\ARM\RV31\Inc\stddef.h
+.\bin\list.o: FreeRTOS\inc\projdefs.h
+.\bin\list.o: .\FreeRTOSConfig.h
+.\bin\list.o: FreeRTOS\inc\portable.h
+.\bin\list.o: FreeRTOS\inc\portmacro.h
+.\bin\list.o: FreeRTOS\inc\mpu_wrappers.h
+.\bin\list.o: FreeRTOS\inc\list.h

@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\philipp\Desktop\stm3210c-skeleton\stm3210c-skeleton.uvproj
+Project File Date:  04/18/2011
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling system_stm32f10x_cl.c...
+compiling GLCD.c...
+linking...
+stm3210c-skeleton.axf: Error: L6218E: Undefined symbol main (referred from entry7.o).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(11): error:  #5: cannot open source input file "setup.h": No such file or directory
+Target not created
+Build target 'Target 1'
+compiling system_stm32f10x_cl.c...
+compiling GLCD.c...
+compiling main.c...
+linking...
+stm3210c-skeleton.axf: Error: L6218E: Undefined symbol __aeabi_assert (referred from main.o).
+Target not created
+Clean started: Project: 'stm3210c-skeleton'
+   deleting intermediate output files for target 'Target 1'
+Build target 'Target 1'
+assembling STM32F10x.s...
+compiling system_stm32f10x_cl.c...
+compiling GLCD.c...
+compiling main.c...
+compiling setup.c...
+Firmware\setup.c(10): error:  #5: cannot open source input file "serial.h": No such file or directory
+Target not created
+Build target 'Target 1'
+compiling setup.c...
+Firmware\setup.c(13): error:  #20: identifier "xComPortHandle" is undefined
+Firmware\setup.c(32): error:  #18: expected a ")"
+Firmware\setup.c(32): error:  #75: operand of "*" must be a pointer
+Firmware\setup.c(79): warning:  #223-D: function "xSerialPortInitMinimal" declared implicitly
+Firmware\setup.c(85): warning:  #223-D: function "xSerialPutChar" declared implicitly
+Firmware\setup.c(85): error:  #18: expected a ")"
+Firmware\setup.c(85): error:  #20: identifier "portTICK_RATE_MS" is undefined
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(36): error:  #1268-D: declaration aliased to undefined entity "SysTickHandler"
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(35): error:  #1268-D: declaration aliased to undefined entity "PendSVC"
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(34): error:  #1268-D: declaration aliased to undefined entity "SVCHandler"
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(33): error:  #1268-D: declaration aliased to undefined entity "DebugMonitor"
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(32): error:  #1268-D: declaration aliased to undefined entity "UsageFaultException"
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(31): error:  #1268-D: declaration aliased to undefined entity "BusFaultException"
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(30): error:  #1268-D: declaration aliased to undefined entity "MemManageException"
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(29): error:  #1268-D: declaration aliased to undefined entity "HardFaultException"
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(28): error:  #1268-D: declaration aliased to undefined entity "NMIException"
+Target not created

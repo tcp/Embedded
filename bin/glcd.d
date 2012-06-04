@@ -1,0 +1,12 @@
+.\bin\glcd.o: Firmware\GLCD.c
+.\bin\glcd.o: Firmware\stm32f10x.h
+.\bin\glcd.o: Firmware\core_cm3.h
+.\bin\glcd.o: D:\Keil\ARM\RV31\Inc\stdint.h
+.\bin\glcd.o: Firmware\system_stm32f10x.h
+.\bin\glcd.o: Firmware\inc\stm32f10x_conf.h
+.\bin\glcd.o: Firmware\inc\stm32f10x_gpio.h
+.\bin\glcd.o: Firmware\stm32f10x.h
+.\bin\glcd.o: Firmware\inc\stm32f10x_i2c.h
+.\bin\glcd.o: Firmware\inc\stm32f10x_rcc.h
+.\bin\glcd.o: Firmware\GLCD.h
+.\bin\glcd.o: Firmware\font.h

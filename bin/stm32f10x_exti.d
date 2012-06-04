@@ -1,0 +1,12 @@
+.\bin\stm32f10x_exti.o: Firmware\src\stm32f10x_exti.c
+.\bin\stm32f10x_exti.o: Firmware\inc\stm32f10x_exti.h
+.\bin\stm32f10x_exti.o: Firmware\stm32f10x.h
+.\bin\stm32f10x_exti.o: Firmware\core_cm3.h
+.\bin\stm32f10x_exti.o: D:\Keil\ARM\RV31\Inc\stdint.h
+.\bin\stm32f10x_exti.o: Firmware\system_stm32f10x.h
+.\bin\stm32f10x_exti.o: Firmware\inc\stm32f10x_conf.h
+.\bin\stm32f10x_exti.o: Firmware\inc\stm32f10x_gpio.h
+.\bin\stm32f10x_exti.o: Firmware\stm32f10x.h
+.\bin\stm32f10x_exti.o: Firmware\inc\stm32f10x_i2c.h
+.\bin\stm32f10x_exti.o: Firmware\inc\stm32f10x_rcc.h
+.\bin\stm32f10x_exti.o: Firmware\assert.h

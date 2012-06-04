@@ -1,0 +1,12 @@
+.\bin\setup.o: Firmware\setup.c
+.\bin\setup.o: Firmware\setup.h
+.\bin\setup.o: Firmware\stm32f10x.h
+.\bin\setup.o: Firmware\core_cm3.h
+.\bin\setup.o: D:\Keil\ARM\RV31\Inc\stdint.h
+.\bin\setup.o: Firmware\system_stm32f10x.h
+.\bin\setup.o: Firmware\inc\stm32f10x_conf.h
+.\bin\setup.o: Firmware\inc\stm32f10x_gpio.h
+.\bin\setup.o: Firmware\stm32f10x.h
+.\bin\setup.o: Firmware\inc\stm32f10x_i2c.h
+.\bin\setup.o: Firmware\inc\stm32f10x_rcc.h
+.\bin\setup.o: D:\Keil\ARM\RV31\Inc\stdio.h

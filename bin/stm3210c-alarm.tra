@@ -1,0 +1,43 @@
+*** Creating Trace Output File '.\bin\stm3210c-alarm.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\bin\stm32f10x.o"'
+### List of Objects: adding '".\bin\stm32f10x_gpio.o"'
+### List of Objects: adding '".\bin\stm32f10x_rcc.o"'
+### List of Objects: adding '".\bin\stm3210c_eval_ioe.o"'
+### List of Objects: adding '".\bin\stm32f10x_i2c.o"'
+### List of Objects: adding '".\bin\stm32f10x_exti.o"'
+### List of Objects: adding '".\bin\misc.o"'
+### List of Objects: adding '".\bin\glcd.o"'
+### List of Objects: adding '".\bin\i2c_ee.o"'
+### List of Objects: adding '".\bin\system_stm32f10x.o"'
+### List of Objects: adding '".\bin\setup.o"'
+### List of Objects: adding '".\bin\main.o"'
+### List of Objects: adding '".\bin\screen.o"'
+### List of Objects: adding '".\bin\screen_test.o"'
+### List of Objects: adding '".\bin\alarm.o"'
+### List of Objects: adding '".\bin\alarm_test.o"'
+### List of Objects: adding '".\bin\master_alarm.o"'
+### List of Objects: adding '".\bin\configure_alarm.o"'
+### List of Objects: adding '".\bin\led_display.o"'
+### List of Objects: adding '".\bin\door1sensor.o"'
+### List of Objects: adding '".\bin\door2sensor.o"'
+### List of Objects: adding '".\bin\heap_2.o"'
+### List of Objects: adding '".\bin\list.o"'
+### List of Objects: adding '".\bin\port.o"'
+### List of Objects: adding '".\bin\queue.o"'
+### List of Objects: adding '".\bin\tasks.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\bin\stm32f10x.o" ".\bin\stm32f10x_gpio.o" ".\bin\stm32f10x_rcc.o" ".\bin\stm3210c_eval_ioe.o" ".\bin\stm32f10x_i2c.o" ".\bin\stm32f10x_exti.o" ".\bin\misc.o" ".\bin\glcd.o" ".\bin\i2c_ee.o" ".\bin\system_stm32f10x.o" ".\bin\setup.o" ".\bin\main.o" ".\bin\screen.o" ".\bin\screen_test.o" ".\bin\alarm.o" ".\bin\alarm_test.o" ".\bin\master_alarm.o" ".\bin\configure_alarm.o" ".\bin\led_display.o" ".\bin\door1sensor.o" ".\bin\door2sensor.o" ".\bin\heap_2.o" ".\bin\list.o" ".\bin\port.o" ".\bin\queue.o" ".\bin\tasks.o" --library_type=microlib --ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\stm3210c-alarm.map" -o ".\bin\stm3210c-alarm.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\bin\stm3210c-alarm.axf'
+### ADS-LD Command File: '.\bin\stm3210c-alarm.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\bin\stm3210c-alarm.lnp', Handle=0x00001134
+### Writing '.lnp' file
+### ADS-LD Command file '.\bin\stm3210c-alarm.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

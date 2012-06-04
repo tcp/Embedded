@@ -1,0 +1,33 @@
+*** Creating Trace Output File '.\bin\stm3210c-skeleton.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\bin\stm32f10x.o"'
+### List of Objects: adding '".\bin\system_stm32f10x_cl.o"'
+### List of Objects: adding '".\bin\stm32f10x_gpio.o"'
+### List of Objects: adding '".\bin\stm32f10x_rcc.o"'
+### List of Objects: adding '".\bin\stm3210c_eval_ioe.o"'
+### List of Objects: adding '".\bin\stm32f10x_i2c.o"'
+### List of Objects: adding '".\bin\stm32f10x_exti.o"'
+### List of Objects: adding '".\bin\misc.o"'
+### List of Objects: adding '".\bin\glcd.o"'
+### List of Objects: adding '".\bin\setup.o"'
+### List of Objects: adding '".\bin\main.o"'
+### List of Objects: adding '".\bin\heap_2.o"'
+### List of Objects: adding '".\bin\list.o"'
+### List of Objects: adding '".\bin\port.o"'
+### List of Objects: adding '".\bin\queue.o"'
+### List of Objects: adding '".\bin\tasks.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\bin\stm32f10x.o" ".\bin\system_stm32f10x_cl.o" ".\bin\stm32f10x_gpio.o" ".\bin\stm32f10x_rcc.o" ".\bin\stm3210c_eval_ioe.o" ".\bin\stm32f10x_i2c.o" ".\bin\stm32f10x_exti.o" ".\bin\misc.o" ".\bin\glcd.o" ".\bin\setup.o" ".\bin\main.o" ".\bin\heap_2.o" ".\bin\list.o" ".\bin\port.o" ".\bin\queue.o" ".\bin\tasks.o" --library_type=microlib --ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\stm3210c-skeleton.map" -o ".\bin\stm3210c-skeleton.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\bin\stm3210c-skeleton.axf'
+### ADS-LD Command File: '.\bin\stm3210c-skeleton.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\bin\stm3210c-skeleton.lnp', Handle=0x00000D6C
+### Writing '.lnp' file
+### ADS-LD Command file '.\bin\stm3210c-skeleton.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

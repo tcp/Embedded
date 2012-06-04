@@ -1,0 +1,10 @@
+.\bin\system_stm32f10x_cl.o: Firmware\system_stm32f10x_cl.c
+.\bin\system_stm32f10x_cl.o: Firmware\stm32f10x.h
+.\bin\system_stm32f10x_cl.o: Firmware\core_cm3.h
+.\bin\system_stm32f10x_cl.o: D:\Keil\ARM\RV31\Inc\stdint.h
+.\bin\system_stm32f10x_cl.o: D:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h
+.\bin\system_stm32f10x_cl.o: Firmware\inc\stm32f10x_conf.h
+.\bin\system_stm32f10x_cl.o: Firmware\inc\stm32f10x_gpio.h
+.\bin\system_stm32f10x_cl.o: Firmware\stm32f10x.h
+.\bin\system_stm32f10x_cl.o: Firmware\inc\stm32f10x_i2c.h
+.\bin\system_stm32f10x_cl.o: Firmware\inc\stm32f10x_rcc.h
